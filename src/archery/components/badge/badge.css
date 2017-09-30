@@ -1,0 +1,10 @@
+.badge {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: var(--colorZeta);
+    color: var(--colorAlpha);
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+}

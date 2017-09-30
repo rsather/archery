@@ -1,0 +1,13 @@
+.label {
+    font-size: 0.8em;
+}
+
+.primary {
+    font-weight: lighter;
+}
+
+
+.secondary {
+    width: 325px;
+    border: none;
+}

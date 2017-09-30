@@ -1,0 +1,45 @@
+/* example of cssnext variable syntax */
+:root {
+    --main-header-height: 65px;
+    --main-left-nav-width: 180px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.headerContainer {
+    background-color: var(--colorIota);
+    height: var(--main-header-height);
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.belowHeader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.leftNav {
+    height: 100%;
+    width: var(--main-left-nav-width);
+    background-color: var(--colorAlpha);
+}
+
+.contentArea {
+    background-color: var(--colorZeta);
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 465px;
+}

@@ -1,0 +1,12 @@
+:root {
+    --colorAlpha: #515044;  /* Used for the main navigation background and as font color for secondary navigation items */
+    --colorBeta: #252312; /* Used for active navigation items */
+    --colorGamma: #D6CA6A; /* Used for hover on primary navigation items */
+    --colorDelta: #14aafb; /* Used for font color on active primary navigation items */
+    --colorEpsilon: #eb322e; /* Used for danger buttons */
+    --colorZeta: #ffffff; /* Used for font color on inactive primary navigation items and as background for secondary navigation items */
+    --colorEta: #262626;
+    --colorTheta: #a9a9a9; /* Used for hover on secondary navigation items */
+    --colorIota: #8D8A75; /* Used for the header color on the main screen */
+    --colorKappa: #51cbee;
+}/* greek alphabets */

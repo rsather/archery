@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove blinking that happens when an element is tapped */
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+:global #root {
+    height: 100%;
+}
+
+input {
+    min-width: 0; /* fixes over-sized text-boxes in firefox https://bugzilla.mozilla.org/show_bug.cgi?id=1088586 */
+}

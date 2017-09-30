@@ -1,0 +1,57 @@
+.container {
+    position: relative;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 3px;
+    color: var(--colorZeta);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    font-size: 1.2em;
+}
+
+.container:focus {
+    outline: none;
+}
+
+.container:active {
+    opacity: 0.75;
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+.contentWrapper {
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.container:disabled {
+    opacity: 0.3;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    left: 2px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.primary {
+    background-color: var(--colorGamma);
+}
+
+.secondary {
+    background-color: var(--colorZeta);
+    border: 2px solid var(--colorDelta);
+    color: var(--colorDelta);
+}
+
+.danger {
+    background-color: var(--colorEpsilon);
+}
+
+.buttonText {
+    width: 100%;
+}

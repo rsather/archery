@@ -1,0 +1,15 @@
+.container {
+    font-size: 0.8em;
+}
+
+.primary {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid var(--colorTheta);
+    font-weight: lighter;
+}
+
+.secondary {
+    border: 0;
+    outline: 0;
+}

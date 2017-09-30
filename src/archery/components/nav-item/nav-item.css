@@ -1,0 +1,65 @@
+.container {
+    width: var(--main-left-nav-width);
+    height: 45px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid transparent; /* hack */
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.primary {
+    background-color: var(--colorAlpha);
+    color: var(--colorZeta);
+}
+
+.primary:hover {
+    background-color: var(--colorGamma);
+    color: var(--colorEta)
+}
+
+.secondary {
+    background-color: var(--colorZeta);
+    color: var(--colorAlpha);
+}
+
+.secondary:hover {
+    background-color: var(--colorTheta);
+}
+
+.hidden {
+    display: none;
+}
+
+.label {
+    text-align: center;
+    margin-left: 26px;
+    font-size: 13px;
+}
+
+.active {
+    background: var(--colorBeta);
+}
+
+.labelAndNotificationContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.badgeContainer {
+    position: absolute;
+    right: 12px;
+}
+
+.activeBar {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 8px;
+    background-color: var(--colorGamma);
+}
