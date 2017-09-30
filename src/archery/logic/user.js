@@ -61,7 +61,7 @@ export function addUser(name, email, phone) {
             email,
             phone
         };
-        axios.post(`/user/add`, userPayload)
+        axios.post(`/api/user/add`, userPayload)
             .then((response) => {
                 dispatch(userWorking(false));
             })
