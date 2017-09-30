@@ -24,8 +24,14 @@ module.exports = {
     },
 
     devServer: {
+        publicPath: "/",
+        port: 8080,
         proxy: {
-            "/api": "http://localhost:5000"
+            "/api": {
+                target: 'http://localhost:5000/',
+                secure: false,
+                changeOrigin: true
+            }
         }
     },
 
