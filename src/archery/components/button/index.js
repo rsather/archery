@@ -26,7 +26,7 @@ export const buttonTypes = {
  * @example <caption>disabled</caption>
  * <Button disabled={true} onTap={() => console.log("never gonna happen")}>Try Me</Button>
  */
-const Button = ({onTap, buttonType = buttonType.primary, width, iconUrl, ...props}) => {
+const Button = ({onTap, buttonType = buttonTypes.primary, width, iconUrl, ...props}) => {
     const buttonStyles = cx(styles.container,
         {
             [styles.primary]: buttonType == buttonTypes.primary,

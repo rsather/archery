@@ -20,7 +20,7 @@
 
 .primary:hover {
     background-color: var(--colorGamma);
-    color: var(--colorEta)
+    color: var(--colorEta);
 }
 
 .secondary {
